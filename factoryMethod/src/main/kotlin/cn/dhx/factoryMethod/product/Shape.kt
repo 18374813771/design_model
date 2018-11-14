@@ -1,5 +1,5 @@
-package cn.dhx.factoryMethod
+package cn.dhx.factoryMethod.product
 
 interface Shape {
-    fun 
+    fun draw()
 }

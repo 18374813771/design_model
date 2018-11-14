@@ -1,4 +1,7 @@
 package cn.dhx.factoryMethod.factory
 
-class Factory {
+import cn.dhx.factoryMethod.product.Shape
+
+interface Factory {
+    fun getShape() : Shape
 }
